@@ -1,0 +1,89 @@
+console.log("hi");
+*************************************************************************************************************************
+const a = "aplle";
+const b = "pie";
+let c = "pizza";
+console.log(a + b + c);
+c = "burger";
+console.log(a + b + c);
+*************************************************************************************************************************
+const arr = [123, "apple", true, "burger"];
+
+console.log(arr);
+arr.push(false);
+console.log(arr);
+console.log(arr[4]);
+*************************************************************************************************************************
+const person = {
+    name: "kim",
+    age: 123
+    };
+
+console.log(person);
+console.log(person.age);
+
+person.num = 222;
+
+console.log(person);
+*************************************************************************************************************************
+function sayHello(personOfName, age) {
+console.log("Hello my name is " + personOfName + "and I'm " + age);
+}
+
+sayHello("jam", 23);
+sayHello("john", 13);
+sayHello("jg");
+*************************************************************************************************************************
+    const player = {
+        name: "nico",
+        sayHello: function(otherPersonsName) {
+            console.log("Hello " + otherPersonsName);
+        }
+    };
+
+    player.sayHello("john");
+
+    player.sayHello("john");
+*************************************************************************************************************************
+    function plus(a,b) {
+        console.log(a + b);
+    };
+
+    plus(4,5);
+*************************************************************************************************************************
+const calculator2 = {
+    plus: function (a,b) {
+        console.log(a+b);
+    },
+    minus: function (a,b) {
+        console.log(a-b);
+    }
+   
+}
+
+calculator2.plus(2,3);
+calculator2.minus(2,3);
+
+*************************************************************************************************************************
+
+const class = document.getElementsByClassName("class");
+const id = document.getElementById("id");
+const title = document.querySelector("(.class or #id)")
+
+
+title.addEventListener("click", click);
+title.addEventListener("mouseenter", enter);
+title.addEventListener("mouseleave", leave);
+
+function click() {
+    title.style.color = "red";
+;}
+
+function enter() {
+   title.innerText = "Mouse is here!";
+;}
+
+function leave() {
+    title.innerText = "Mouse is gone!";
+ ;}
+*************************************************************************************************************************
