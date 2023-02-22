@@ -1,0 +1,68 @@
+
+
+.hidden {
+    display: none;
+}
+#header{
+    height: 20%;
+}
+#body{
+    height: 70%;
+   
+}
+#footer{
+    height: 10%;
+}
+
+#weather{
+    color: white;
+}
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+
+    }
+#clock {
+    text-align: center;
+    font-size: 150px;
+    font-weight: bolder;
+
+}
+#body-form{
+    text-align: center;
+}
+
+.input-name, .input-toDoList {
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 1px 20px;
+}
+#body-form input::placeholder{
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+}
+
+#quote{
+    color: white;
+    font-weight: bold;
+}
